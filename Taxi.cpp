@@ -47,12 +47,12 @@ int main()
     if(dos.size()!=0)
     {
 
-        if(dos.size()%4==0)
+        if(dos.size()%2==0)
         {
-            conta+=dos.size()/4;
+            conta+=dos.size()/2;
         }else{
 
-            conta+=dos.size()/4+1;
+            conta+=dos.size()/2+1;
         }
 
     }
@@ -67,14 +67,6 @@ int main()
         }
     }
         cout<<conta;
-
-
-
-
-
-
-
-
 
     return 0;
 }
